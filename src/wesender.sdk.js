@@ -15,8 +15,7 @@ class WeSenderSDK {
    * @param {String} apiKey 
    */
   constructor (apiKey) {
-    // this._url = 'https://api.wesender.co.ao/';
-    this._url = 'http://apiwesender-dev.digitalfactory.co.ao/';
+    this._url = 'https://api.wesender.co.ao/';
     this._apiKey = apiKey;
   }
 
