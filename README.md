@@ -23,6 +23,7 @@ Resposta do método é a mesma que a da API:
 "Mensagem" : String,
 "Objeto" :
   {
+    // quantity of message that you can send
     "SMS" : Number,
     "WhatsApp" : Number,
     "FacebookMesseger" : Number,
