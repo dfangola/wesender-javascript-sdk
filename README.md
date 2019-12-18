@@ -3,6 +3,8 @@
 
 **A chave da api deve ser passada na instância da classe, como construtor**
 
+`npm i wesenderjs`
+
 ## Métodos diponiveis no momento
 ### - sendMessage
 Esse metodo recebe um `payload` com as informações que devem ser enviadas e para quem deve ser enviado.
