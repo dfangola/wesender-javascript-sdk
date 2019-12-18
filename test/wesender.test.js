@@ -8,7 +8,7 @@ describe('WeSenderSDK', function () {
   it('user can send message from apikey', async function () {
     const payload = {
       destine: [
-        "941056884"
+        "000000000"
       ],
       message: 'Olá mundo, yh'
     }
