@@ -11,7 +11,7 @@ describe('WeSenderSDK', function () {
         "000000000"
       ],
       message: 'Olá mundo, yh',
-      hasSpecialCharacter: true
+      hasSpecialCharacters: true
     }
     
     const response = await WSDK.sendMessage(payload)
