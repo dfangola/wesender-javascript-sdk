@@ -56,6 +56,26 @@ Resposta do método é a mesma que a da API:
 
 ```
 
+- NPM
+
+```ts
+  import WeSenderSDK from 'wesenderjs'
+  
+  main () {
+    const apikey = 'Valid api Key';
+    const WSDK = new WeSenderSDK(apikey)
+    const payload = {
+      destine: [
+        '920000000'
+      ],
+      message:'Olá Mundo do sdk',
+    }
+    
+    WSDK.sendMessage(payload)
+  
+  }
+```
+
 ## License
 MIT
 
