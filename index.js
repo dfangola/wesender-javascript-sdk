@@ -30,7 +30,7 @@ class WeSenderSDK {
       ApiKey: this._apiKey,
       Destino: destine,
       Mensagem: message,
-      CEspecial: hasSpecialCharacters
+      CEspeciais: hasSpecialCharacters
     }
 
     try {
